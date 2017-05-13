@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		EF84F90D1EC6FCAD005E6E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F90C1EC6FCAD005E6E0B /* AppDelegate.swift */; };
 		EF84F90F1EC6FCAD005E6E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F90E1EC6FCAD005E6E0B /* ViewController.swift */; };
-		EF84F9121EC6FCAD005E6E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84F9101EC6FCAD005E6E0B /* Main.storyboard */; };
 		EF84F9151EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF84F9131EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodeld */; };
 		EF84F9171EC6FCAD005E6E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF84F9161EC6FCAD005E6E0B /* Assets.xcassets */; };
 		EF84F91A1EC6FCAD005E6E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84F9181EC6FCAD005E6E0B /* LaunchScreen.storyboard */; };
 		EF84F9251EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F9241EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingTests.swift */; };
 		EF84F9301EC6FCAE005E6E0B /* Hiep_MovieDB_NowPlayingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F92F1EC6FCAE005E6E0B /* Hiep_MovieDB_NowPlayingUITests.swift */; };
+		EF84F9411EC6FD0D005E6E0B /* MoviesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F9401EC6FD0D005E6E0B /* MoviesList.swift */; };
+		EF84F9431EC6FD24005E6E0B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F9421EC6FD24005E6E0B /* Movie.swift */; };
+		EF84F9451EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF84F9441EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift */; };
+		EF84F9471EC7002B005E6E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF84F9461EC7002B005E6E0B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		EF84F9091EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiep_MovieDB_NowPlaying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF84F90C1EC6FCAD005E6E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF84F90E1EC6FCAD005E6E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF84F9111EC6FCAD005E6E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF84F9141EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hiep_MovieDB_NowPlaying.xcdatamodel; sourceTree = "<group>"; };
 		EF84F9161EC6FCAD005E6E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF84F9191EC6FCAD005E6E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		EF84F92B1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlayingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hiep_MovieDB_NowPlayingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF84F92F1EC6FCAE005E6E0B /* Hiep_MovieDB_NowPlayingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hiep_MovieDB_NowPlayingUITests.swift; sourceTree = "<group>"; };
 		EF84F9311EC6FCAE005E6E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF84F9401EC6FD0D005E6E0B /* MoviesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesList.swift; sourceTree = "<group>"; };
+		EF84F9421EC6FD24005E6E0B /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		EF84F9441EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDBNowplayViewController.swift; sourceTree = "<group>"; };
+		EF84F9461EC7002B005E6E0B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,11 @@
 		EF84F90B1EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying */ = {
 			isa = PBXGroup;
 			children = (
+				EF84F9441EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift */,
+				EF84F93D1EC6FCC1005E6E0B /* MODEL */,
 				EF84F90C1EC6FCAD005E6E0B /* AppDelegate.swift */,
 				EF84F90E1EC6FCAD005E6E0B /* ViewController.swift */,
-				EF84F9101EC6FCAD005E6E0B /* Main.storyboard */,
+				EF84F9461EC7002B005E6E0B /* Main.storyboard */,
 				EF84F9161EC6FCAD005E6E0B /* Assets.xcassets */,
 				EF84F9181EC6FCAD005E6E0B /* LaunchScreen.storyboard */,
 				EF84F91B1EC6FCAD005E6E0B /* Info.plist */,
@@ -126,6 +134,15 @@
 				EF84F9311EC6FCAE005E6E0B /* Info.plist */,
 			);
 			path = Hiep_MovieDB_NowPlayingUITests;
+			sourceTree = "<group>";
+		};
+		EF84F93D1EC6FCC1005E6E0B /* MODEL */ = {
+			isa = PBXGroup;
+			children = (
+				EF84F9421EC6FD24005E6E0B /* Movie.swift */,
+				EF84F9401EC6FD0D005E6E0B /* MoviesList.swift */,
+			);
+			name = MODEL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF84F9471EC7002B005E6E0B /* Main.storyboard in Resources */,
 				EF84F91A1EC6FCAD005E6E0B /* LaunchScreen.storyboard in Resources */,
 				EF84F9171EC6FCAD005E6E0B /* Assets.xcassets in Resources */,
-				EF84F9121EC6FCAD005E6E0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +281,10 @@
 			files = (
 				EF84F90F1EC6FCAD005E6E0B /* ViewController.swift in Sources */,
 				EF84F90D1EC6FCAD005E6E0B /* AppDelegate.swift in Sources */,
+				EF84F9411EC6FD0D005E6E0B /* MoviesList.swift in Sources */,
 				EF84F9151EC6FCAD005E6E0B /* Hiep_MovieDB_NowPlaying.xcdatamodeld in Sources */,
+				EF84F9451EC6FD6E005E6E0B /* MovieDBNowplayViewController.swift in Sources */,
+				EF84F9431EC6FD24005E6E0B /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF84F9101EC6FCAD005E6E0B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF84F9111EC6FCAD005E6E0B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF84F9181EC6FCAD005E6E0B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -509,6 +521,7 @@
 				EF84F9361EC6FCAE005E6E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF84F9371EC6FCAE005E6E0B /* Build configuration list for PBXNativeTarget "Hiep_MovieDB_NowPlayingTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +530,7 @@
 				EF84F9391EC6FCAE005E6E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF84F93A1EC6FCAE005E6E0B /* Build configuration list for PBXNativeTarget "Hiep_MovieDB_NowPlayingUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +539,7 @@
 				EF84F93C1EC6FCAE005E6E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
